@@ -1,0 +1,6 @@
+# ads.txt file for Block Blast Unblocked Games
+# Required for Google AdSense verification
+
+# Google AdSense - Replace pub-XXXXXXXXXXXXXXXX with your publisher ID
+# Uncomment the line below after replacing with your ID:
+# google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0

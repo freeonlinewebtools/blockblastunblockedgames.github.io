@@ -1,0 +1,31 @@
+# Block Blast Unblocked Games - robots.txt
+# https://blockblastunblockedgames.github.io/
+
+# Allow all search engines
+User-agent: *
+Allow: /
+Allow: /index.html
+Allow: /play.html
+Allow: /privacy.html
+Allow: /assets/
+Allow: /manifest.json
+Allow: /sitemap.xml
+
+# Crawl-delay to be nice to servers
+Crawl-delay: 1
+
+# Googlebot specific
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+# Bingbot specific  
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# Sitemap location
+Sitemap: https://blockblastunblockedgames.github.io/sitemap.xml
+
+# Host directive
+Host: https://blockblastunblockedgames.github.io

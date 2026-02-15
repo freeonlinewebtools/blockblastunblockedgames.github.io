@@ -1,0 +1,955 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Play Game - Block Blast Unblocked Games</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="assets/img/icon/main.png">
+    <link rel="apple-touch-icon" href="assets/img/icon/main.png">
+    <link rel="manifest" href="manifest.json">
+    <meta name="description" content="Play free unblocked games online at Block Blast Unblocked Games. No downloads needed - instant play at school, work, or home!">
+    <meta name="keywords" content="unblocked games, free online games, browser games, play unblocked, school games, no download games">
+    <link rel="canonical" href="https://blockblastunblockedgames.github.io/play.html">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://blockblastunblockedgames.github.io/play.html">
+    <meta property="og:title" content="Play Games - Block Blast Unblocked">
+    <meta property="og:description" content="Play free unblocked games instantly. No downloads, no sign-up required!">
+    <meta property="og:image" content="https://blockblastunblockedgames.github.io/assets/img/icon/main.png">
+    <meta property="og:site_name" content="Block Blast Unblocked Games">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Play Games - Block Blast Unblocked">
+    <meta name="twitter:description" content="Play free unblocked games instantly in your browser!">
+    <meta name="twitter:image" content="https://blockblastunblockedgames.github.io/assets/img/icon/main.png">
+    
+    <!-- Additional SEO -->
+    <meta name="robots" content="index, follow, max-image-preview:large">
+    <meta name="googlebot" content="index, follow">
+    <meta name="theme-color" content="#f5c842">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    
+    <!-- Preconnect for Performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://ubghyper.github.io">
+    <link rel="dns-prefetch" href="https://ubghyper.github.io">
+    
+    <!-- Structured Data for Game Page -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Play Free Unblocked Games",
+      "description": "Play free unblocked games online at Block Blast Unblocked Games",
+      "url": "https://blockblastunblockedgames.github.io/play.html",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "Block Blast Unblocked Games",
+        "url": "https://blockblastunblockedgames.github.io/"
+      }
+    }
+    </script>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+    <style>
+        :root {
+            --primary: #f5c842;
+            --primary-dark: #d4a520;
+            --secondary: #2ecc71;
+            --accent-red: #e74c3c;
+            --accent-blue: #3498db;
+            --accent-green: #2ecc71;
+            --bg-main: #0c1445;
+            --bg-card: #1a2155;
+            --bg-elevated: #242b6b;
+            --text-primary: #ffffff;
+            --text-secondary: #a0a8d0;
+            --border-color: #2a3175;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: var(--bg-main);
+            color: var(--text-primary);
+            min-height: 100vh;
+        }
+
+        /* Navbar */
+        nav {
+            background: var(--bg-elevated);
+            padding: 0.75rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            text-decoration: none;
+        }
+
+        .logo-icon {
+            font-size: 1.5rem;
+        }
+
+        .logo-text {
+            font-size: 1.25rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, var(--primary), var(--accent-red), var(--accent-green), var(--accent-blue));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .nav-actions {
+            display: flex;
+            gap: 0.75rem;
+        }
+
+        .nav-btn {
+            padding: 0.5rem 1rem;
+            border: none;
+            border-radius: 8px;
+            background: var(--bg-card);
+            color: var(--text-primary);
+            font-family: inherit;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            text-decoration: none;
+        }
+
+        .nav-btn:hover {
+            background: var(--primary);
+            color: var(--bg-main);
+        }
+
+        /* Game Container */
+        .game-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1.5rem;
+        }
+
+        .game-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1rem;
+        }
+
+        .game-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+
+        .game-actions {
+            display: flex;
+            gap: 0.5rem;
+        }
+
+        .action-btn {
+            padding: 0.5rem 1rem;
+            border: none;
+            border-radius: 8px;
+            background: var(--bg-card);
+            color: var(--text-primary);
+            font-family: inherit;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .action-btn:hover {
+            background: var(--primary);
+            color: var(--bg-main);
+        }
+
+        .action-btn.fullscreen {
+            background: var(--primary);
+            color: var(--bg-main);
+        }
+
+        /* Game Frame */
+        .game-frame-container {
+            background: var(--bg-card);
+            border-radius: 16px;
+            overflow: hidden;
+            border: 2px solid var(--border-color);
+        }
+
+        .game-frame {
+            width: 100%;
+            height: 70vh;
+            border: none;
+            display: block;
+        }
+
+        /* Loading */
+        .loading-screen {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 70vh;
+            background: var(--bg-card);
+            border-radius: 16px;
+        }
+
+        .loading-screen i {
+            font-size: 3rem;
+            color: var(--primary);
+            animation: spin 1s linear infinite;
+        }
+
+        .loading-screen p {
+            margin-top: 1rem;
+            color: var(--text-secondary);
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        /* Game Info */
+        .game-info-section {
+            margin-top: 1.5rem;
+            background: var(--bg-card);
+            border-radius: 16px;
+            padding: 1.5rem;
+        }
+
+        .game-description {
+            color: var(--text-secondary);
+            line-height: 1.6;
+        }
+
+        .game-tags {
+            display: flex;
+            gap: 0.5rem;
+            margin-top: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .tag {
+            padding: 0.25rem 0.75rem;
+            background: var(--bg-elevated);
+            border-radius: 20px;
+            font-size: 0.8rem;
+            color: var(--primary);
+        }
+
+        /* Recommended */
+        .recommended-section {
+            margin-top: 2rem;
+        }
+
+        .recommended-section h2 {
+            font-size: 1.25rem;
+            margin-bottom: 1rem;
+        }
+
+        .recommended-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            gap: 1rem;
+        }
+
+        .recommended-card {
+            background: var(--bg-card);
+            border-radius: 12px;
+            overflow: hidden;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+        }
+
+        .recommended-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(245, 200, 66, 0.2);
+        }
+
+        .recommended-card img {
+            width: 100%;
+            aspect-ratio: 1;
+            object-fit: cover;
+        }
+
+        .recommended-card .title {
+            padding: 0.5rem;
+            font-size: 0.85rem;
+            font-weight: 500;
+            color: var(--text-primary);
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        /* Fullscreen */
+        .game-frame-container.fullscreen {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            z-index: 9999;
+            border-radius: 0;
+        }
+
+        .game-frame-container.fullscreen .game-frame {
+            height: 100vh;
+        }
+
+        /* Ad Slots - Insert AdSense code inside these divs */
+        .ad-slot {
+            text-align: center;
+            margin: 1rem auto;
+        }
+
+        .ad-slot-sidebar {
+            margin: 1rem 0;
+        }
+
+        /* Share & Actions Bar */
+        .action-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 1rem;
+            padding: 1rem;
+            background: var(--bg-card);
+            border-radius: 12px;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .action-btn-copy {
+            padding: 0.5rem 1rem;
+            border: none;
+            border-radius: 8px;
+            background: var(--bg-elevated);
+            color: var(--text-primary);
+            cursor: pointer;
+            font-family: inherit;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            transition: all 0.2s ease;
+            font-size: 0.85rem;
+        }
+
+        .action-btn-copy:hover {
+            background: var(--primary);
+            color: var(--bg-main);
+        }
+
+        .fav-btn {
+            padding: 0.5rem 1rem;
+            border: 2px solid var(--accent-red);
+            border-radius: 8px;
+            background: transparent;
+            color: var(--accent-red);
+            cursor: pointer;
+            font-family: inherit;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            transition: all 0.2s ease;
+        }
+
+        .fav-btn:hover, .fav-btn.active {
+            background: var(--accent-red);
+            color: white;
+        }
+
+        /* Play Again / Continue Bar */
+        .sticky-play-bar {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: var(--bg-elevated);
+            padding: 0.75rem 2rem;
+            display: none;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 -4px 20px rgba(0,0,0,0.4);
+            z-index: 999;
+        }
+
+        .sticky-play-bar.visible {
+            display: flex;
+        }
+
+        .sticky-game-info {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .sticky-game-info img {
+            width: 50px;
+            height: 50px;
+            border-radius: 8px;
+            object-fit: cover;
+        }
+
+        .sticky-game-info .name {
+            font-weight: 600;
+        }
+
+        .sticky-play-btn {
+            background: var(--primary);
+            color: var(--bg-main);
+            border: none;
+            padding: 0.75rem 2rem;
+            border-radius: 50px;
+            font-weight: 600;
+            font-family: inherit;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .sticky-play-btn:hover {
+            transform: scale(1.05);
+        }
+
+        body.has-sticky-bar {
+            padding-bottom: 80px;
+        }
+
+        /* Two column layout for game page */
+        .game-layout {
+            display: grid;
+            grid-template-columns: 1fr 300px;
+            gap: 1.5rem;
+            margin-top: 1.5rem;
+        }
+
+        .game-main {
+            min-width: 0;
+        }
+
+        .game-sidebar {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .sidebar-box {
+            background: var(--bg-card);
+            border-radius: 12px;
+            padding: 1rem;
+        }
+
+        .sidebar-title {
+            font-size: 0.9rem;
+            font-weight: 600;
+            margin-bottom: 0.75rem;
+            color: var(--primary);
+        }
+
+        /* Responsive */
+        @media (max-width: 1024px) {
+            .game-layout {
+                grid-template-columns: 1fr;
+            }
+
+            .game-sidebar {
+                display: none;
+            }
+        }
+
+        @media (max-width: 768px) {
+            nav {
+                padding: 0.75rem 1rem;
+            }
+
+            .game-container {
+                padding: 1rem;
+            }
+
+            .game-header {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 0.75rem;
+            }
+
+            .game-frame {
+                height: 50vh;
+            }
+
+            .action-bar {
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            .share-buttons {
+                justify-content: center;
+                flex-wrap: wrap;
+            }
+
+            .game-actions-bar {
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html" class="logo">
+            <span class="logo-icon">🧩</span>
+            <span class="logo-text">BlockBlast Games</span>
+        </a>
+        <div class="nav-actions">
+            <a href="index.html" class="nav-btn">
+                <i class="fas fa-home"></i>
+                <span>All Games</span>
+            </a>
+        </div>
+    </nav>
+
+    <div class="game-container">
+        <!-- Top Ad Slot - Paste AdSense code here -->
+        <div class="ad-slot" id="playTopAd">
+            <!-- PASTE ADSENSE AD UNIT CODE HERE -->
+        </div>
+
+        <div class="game-header">
+            <h1 class="game-title" id="gameTitle">Loading...</h1>
+            <div class="game-actions">
+                <button class="action-btn" id="refreshBtn" title="Refresh">
+                    <i class="fas fa-redo"></i>
+                </button>
+                <button class="action-btn fullscreen" id="fullscreenBtn" title="Fullscreen">
+                    <i class="fas fa-expand"></i>
+                    <span>Fullscreen</span>
+                </button>
+            </div>
+        </div>
+
+        <div class="game-frame-container" id="frameContainer">
+            <div class="loading-screen" id="loadingScreen">
+                <i class="fas fa-spinner"></i>
+                <p>Loading game...</p>
+            </div>
+            <iframe class="game-frame" id="gameFrame" style="display:none;" allowfullscreen></iframe>
+        </div>
+
+        <!-- Action Bar -->
+        <div class="action-bar">
+            <button class="action-btn-copy" id="copyLink">
+                <i class="fas fa-link"></i> Copy Link
+            </button>
+            <button class="fav-btn" id="favBtn">
+                <i class="fas fa-heart"></i>
+                <span id="favBtnText">Add to Favorites</span>
+            </button>
+        </div>
+
+        <div class="game-layout">
+            <div class="game-main">
+                <div class="game-info-section" id="gameInfo" style="display:none;">
+                    <p class="game-description" id="gameDesc"></p>
+                    <div class="game-tags" id="gameTags"></div>
+                    <p style="margin-top: 1rem; color: var(--text-secondary); font-size: 0.85rem;" id="gameCredits"></p>
+                </div>
+
+                <!-- Mid Ad Slot - Paste AdSense code here -->
+                <div class="ad-slot" id="playMidAd">
+                    <!-- PASTE ADSENSE AD UNIT CODE HERE -->
+                </div>
+
+                <div class="recommended-section">
+                    <h2><i class="fas fa-gamepad" style="color: var(--primary);"></i> More Games You'll Love</h2>
+                    <div class="recommended-grid" id="recommendedGrid"></div>
+                </div>
+            </div>
+
+            <aside class="game-sidebar">
+                <div class="sidebar-box">
+                    <h3 class="sidebar-title">🔥 Popular Now</h3>
+                    <div id="sidebarPopular"></div>
+                </div>
+
+                <!-- Sidebar Ad Slot - Paste AdSense code here -->
+                <div class="ad-slot ad-slot-sidebar" id="playSidebarAd">
+                    <!-- PASTE ADSENSE AD UNIT CODE HERE -->
+                </div>
+
+                <div class="sidebar-box">
+                    <h3 class="sidebar-title">🎲 Try Something New</h3>
+                    <div id="sidebarRandom"></div>
+                </div>
+            </aside>
+        </div>
+    </div>
+
+    <!-- Sticky Play Bar (shows when scrolled) -->
+    <div class="sticky-play-bar" id="stickyBar">
+        <div class="sticky-game-info">
+            <img id="stickyImg" src="" alt="">
+            <div>
+                <div class="name" id="stickyName"></div>
+                <div style="font-size: 0.8rem; color: var(--text-secondary);">Keep playing!</div>
+            </div>
+        </div>
+        <button class="sticky-play-btn" onclick="scrollToGame()">
+            <i class="fas fa-play"></i> Continue Playing
+        </button>
+    </div>
+
+    <script>
+        let allGames = [];
+        let currentGame = null;
+        const gameUrl = new URLSearchParams(window.location.search).get('game');
+        const STORAGE_KEY_FAVORITES = 'bbug_favorites';
+        const STORAGE_KEY_RECENT = 'bbug_recent';
+
+        // LocalStorage helpers
+        function getFavorites() {
+            try {
+                return JSON.parse(localStorage.getItem(STORAGE_KEY_FAVORITES)) || [];
+            } catch { return []; }
+        }
+
+        function saveFavorites(favs) {
+            localStorage.setItem(STORAGE_KEY_FAVORITES, JSON.stringify(favs));
+        }
+
+        function addToRecentlyPlayed(gameUrl) {
+            let recent = [];
+            try {
+                recent = JSON.parse(localStorage.getItem(STORAGE_KEY_RECENT)) || [];
+            } catch {}
+            recent = recent.filter(r => r !== gameUrl);
+            recent.unshift(gameUrl);
+            recent = recent.slice(0, 10);
+            localStorage.setItem(STORAGE_KEY_RECENT, JSON.stringify(recent));
+        }
+
+        async function init() {
+            try {
+                const response = await fetch('assets/games.json');
+                allGames = await response.json();
+                
+                currentGame = allGames.find(g => g.url === gameUrl);
+                
+                if (currentGame) {
+                    addToRecentlyPlayed(gameUrl);
+                    loadGame();
+                    loadRecommended();
+                    loadSidebar();
+                    setupCopyLink();
+                    setupFavoriteButton();
+                    setupStickyBar();
+                } else {
+                    showError('Game not found');
+                }
+            } catch (error) {
+                showError('Failed to load game');
+            }
+        }
+
+        function loadGame() {
+            // Update title
+            document.getElementById('gameTitle').textContent = currentGame.name;
+            document.title = `Play ${currentGame.name} Free - Block Blast Unblocked Games`;
+
+            // Update meta description
+            const metaDesc = document.querySelector('meta[name="description"]');
+            if (metaDesc && currentGame.gamedesc) {
+                metaDesc.setAttribute('content', `Play ${currentGame.name} unblocked online for free. ${currentGame.gamedesc} No downloads needed!`);
+            }
+
+            // Update Open Graph tags dynamically
+            const ogTitle = document.querySelector('meta[property="og:title"]');
+            if (ogTitle) ogTitle.setAttribute('content', `Play ${currentGame.name} Free - Unblocked Games`);
+            
+            const ogDesc = document.querySelector('meta[property="og:description"]');
+            if (ogDesc && currentGame.gamedesc) ogDesc.setAttribute('content', currentGame.gamedesc);
+
+            const twitterTitle = document.querySelector('meta[name="twitter:title"]');
+            if (twitterTitle) twitterTitle.setAttribute('content', `Play ${currentGame.name} - Unblocked`);
+
+            // Add dynamic VideoGame structured data
+            const gameSchema = document.createElement('script');
+            gameSchema.type = 'application/ld+json';
+            gameSchema.textContent = JSON.stringify({
+                "@context": "https://schema.org",
+                "@type": "VideoGame",
+                "name": currentGame.name,
+                "description": currentGame.gamedesc || `Play ${currentGame.name} free online`,
+                "genre": currentGame.tags || ["Game"],
+                "gamePlatform": "Web Browser",
+                "applicationCategory": "Game",
+                "operatingSystem": "Any",
+                "offers": {
+                    "@type": "Offer",
+                    "price": "0",
+                    "priceCurrency": "USD",
+                    "availability": "https://schema.org/InStock"
+                },
+                "author": {
+                    "@type": "Organization",
+                    "name": currentGame.credits || "Unknown Developer"
+                },
+                "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "4.5",
+                    "ratingCount": "100",
+                    "bestRating": "5",
+                    "worstRating": "1"
+                }
+            });
+            document.head.appendChild(gameSchema);
+
+            // Add BreadcrumbList structured data
+            const breadcrumbSchema = document.createElement('script');
+            breadcrumbSchema.type = 'application/ld+json';
+            breadcrumbSchema.textContent = JSON.stringify({
+                "@context": "https://schema.org",
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": "https://blockblastunblockedgames.github.io/"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": currentGame.tags?.[0] || "Games",
+                        "item": `https://blockblastunblockedgames.github.io/?category=${currentGame.tags?.[0] || 'all'}`
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "name": currentGame.name,
+                        "item": `https://blockblastunblockedgames.github.io/play.html?game=${currentGame.url}`
+                    }
+                ]
+            });
+            document.head.appendChild(breadcrumbSchema);
+
+            // Load iframe
+            const iframe = document.getElementById('gameFrame');
+            const loading = document.getElementById('loadingScreen');
+            
+            iframe.src = `https://ubghyper.github.io/GameList.github.io/${currentGame.url}/`;
+            
+            iframe.onload = () => {
+                loading.style.display = 'none';
+                iframe.style.display = 'block';
+            };
+
+            // Show game info
+            if (currentGame.gamedesc) {
+                document.getElementById('gameDesc').textContent = currentGame.gamedesc;
+                document.getElementById('gameInfo').style.display = 'block';
+            }
+
+            if (currentGame.tags && currentGame.tags.length > 0) {
+                document.getElementById('gameTags').innerHTML = currentGame.tags
+                    .map(tag => `<span class="tag">${tag}</span>`)
+                    .join('');
+            }
+
+            if (currentGame.credits) {
+                document.getElementById('gameCredits').textContent = currentGame.credits;
+            }
+        }
+
+        function loadRecommended() {
+            const grid = document.getElementById('recommendedGrid');
+            const currentTags = currentGame.tags || [];
+            
+            let recommended = allGames
+                .filter(g => g.url !== currentGame.url && !g.status)
+                .filter(g => g.tags && g.tags.some(t => currentTags.includes(t)))
+                .slice(0, 8);
+
+            if (recommended.length < 8) {
+                const more = allGames
+                    .filter(g => g.url !== currentGame.url && !recommended.includes(g) && !g.status)
+                    .slice(0, 8 - recommended.length);
+                recommended = [...recommended, ...more];
+            }
+
+            grid.innerHTML = recommended.map(game => `
+                <a href="play.html?game=${encodeURIComponent(game.url)}" class="recommended-card">
+                    <img src="https://ubghyper.github.io/GameList.github.io/${game.url}/${game.image}" 
+                         alt="${game.name}"
+                         loading="lazy"
+                         onerror="this.src='https://via.placeholder.com/150x150/1a2155/f5c842?text=${encodeURIComponent(game.name)}'">
+                    <div class="title">${game.name}</div>
+                </a>
+            `).join('');
+        }
+
+        function loadSidebar() {
+            // Popular games
+            const popular = allGames.filter(g => !g.status).slice(0, 5);
+            document.getElementById('sidebarPopular').innerHTML = popular.map(game => `
+                <a href="play.html?game=${encodeURIComponent(game.url)}" style="display: flex; align-items: center; gap: 0.75rem; padding: 0.5rem; background: var(--bg-elevated); border-radius: 8px; margin-bottom: 0.5rem; text-decoration: none; color: inherit; transition: background 0.2s;">
+                    <img src="https://ubghyper.github.io/GameList.github.io/${game.url}/${game.image}" 
+                         style="width: 40px; height: 40px; border-radius: 6px; object-fit: cover;" loading="lazy"
+                         onerror="this.style.display='none'">
+                    <span style="font-size: 0.8rem; font-weight: 500; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">${game.name}</span>
+                </a>
+            `).join('');
+
+            // Random games
+            const random = [...allGames].filter(g => !g.status).sort(() => Math.random() - 0.5).slice(0, 5);
+            document.getElementById('sidebarRandom').innerHTML = random.map(game => `
+                <a href="play.html?game=${encodeURIComponent(game.url)}" style="display: flex; align-items: center; gap: 0.75rem; padding: 0.5rem; background: var(--bg-elevated); border-radius: 8px; margin-bottom: 0.5rem; text-decoration: none; color: inherit; transition: background 0.2s;">
+                    <img src="https://ubghyper.github.io/GameList.github.io/${game.url}/${game.image}" 
+                         style="width: 40px; height: 40px; border-radius: 6px; object-fit: cover;" loading="lazy"
+                         onerror="this.style.display='none'">
+                    <span style="font-size: 0.8rem; font-weight: 500; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">${game.name}</span>
+                </a>
+            `).join('');
+        }
+
+        function setupCopyLink() {
+            const url = window.location.href;
+            
+            document.getElementById('copyLink').addEventListener('click', async () => {
+                try {
+                    await navigator.clipboard.writeText(url);
+                    const btn = document.getElementById('copyLink');
+                    btn.innerHTML = '<i class="fas fa-check"></i> Copied!';
+                    setTimeout(() => {
+                        btn.innerHTML = '<i class="fas fa-link"></i> Copy Link';
+                    }, 2000);
+                } catch {
+                    alert('Link: ' + url);
+                }
+            });
+        }
+
+        function setupFavoriteButton() {
+            const favBtn = document.getElementById('favBtn');
+            const favs = getFavorites();
+            const isFav = favs.includes(gameUrl);
+            
+            updateFavButton(isFav);
+            
+            favBtn.addEventListener('click', () => {
+                let favs = getFavorites();
+                const isFav = favs.includes(gameUrl);
+                
+                if (isFav) {
+                    favs = favs.filter(f => f !== gameUrl);
+                } else {
+                    favs.push(gameUrl);
+                }
+                
+                saveFavorites(favs);
+                updateFavButton(!isFav);
+            });
+        }
+
+        function updateFavButton(isFav) {
+            const favBtn = document.getElementById('favBtn');
+            const favText = document.getElementById('favBtnText');
+            
+            if (isFav) {
+                favBtn.classList.add('active');
+                favText.textContent = 'Favorited!';
+            } else {
+                favBtn.classList.remove('active');
+                favText.textContent = 'Add to Favorites';
+            }
+        }
+
+        function setupStickyBar() {
+            const stickyBar = document.getElementById('stickyBar');
+            const stickyImg = document.getElementById('stickyImg');
+            const stickyName = document.getElementById('stickyName');
+            
+            stickyImg.src = `https://ubghyper.github.io/GameList.github.io/${currentGame.url}/${currentGame.image}`;
+            stickyName.textContent = currentGame.name;
+            
+            window.addEventListener('scroll', () => {
+                const frameContainer = document.getElementById('frameContainer');
+                const rect = frameContainer.getBoundingClientRect();
+                
+                if (rect.bottom < 0) {
+                    stickyBar.classList.add('visible');
+                    document.body.classList.add('has-sticky-bar');
+                } else {
+                    stickyBar.classList.remove('visible');
+                    document.body.classList.remove('has-sticky-bar');
+                }
+            });
+        }
+
+        function scrollToGame() {
+            document.getElementById('frameContainer').scrollIntoView({ behavior: 'smooth' });
+        }
+
+        function showError(message) {
+            document.getElementById('loadingScreen').innerHTML = `
+                <i class="fas fa-exclamation-circle" style="animation:none; color:#e74c3c;"></i>
+                <p>${message}</p>
+                <a href="index.html" style="margin-top:1rem; color:var(--primary);">Back to Games</a>
+            `;
+        }
+
+        // Fullscreen
+        document.getElementById('fullscreenBtn').addEventListener('click', () => {
+            const container = document.getElementById('frameContainer');
+            container.classList.toggle('fullscreen');
+            
+            const icon = document.querySelector('#fullscreenBtn i');
+            if (container.classList.contains('fullscreen')) {
+                icon.className = 'fas fa-compress';
+            } else {
+                icon.className = 'fas fa-expand';
+            }
+        });
+
+        // Refresh
+        document.getElementById('refreshBtn').addEventListener('click', () => {
+            const iframe = document.getElementById('gameFrame');
+            iframe.src = iframe.src;
+        });
+
+        // ESC to exit fullscreen
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') {
+                document.getElementById('frameContainer').classList.remove('fullscreen');
+                document.querySelector('#fullscreenBtn i').className = 'fas fa-expand';
+            }
+        });
+
+        init();
+    </script>
+</body>
+</html>
